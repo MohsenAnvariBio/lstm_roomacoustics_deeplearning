@@ -82,7 +82,7 @@ class LSTM_EDC_Model(nn.Module):
 # Load Data
 # =========================
 X = np.load("input_features.npy")     # (n, 16)
-X = X[:20] 
+#X = X[:20] 
 Y = np.load("edc_dataset.npy")        # (n, 144000, 10)
 
 print("Input shape:", X.shape)
